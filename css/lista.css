@@ -1,0 +1,76 @@
+.container__lista {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;    
+}
+
+.lista {
+    padding: 16px;
+    background-color:  hsl(237, 14%, 26%);
+    border: none;
+    border-radius: 5px;
+    width: 80vw;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 14px; 
+}
+
+.botao__enviar {
+    padding: 10px;
+    width: 120px;
+    background-image: linear-gradient(to left, hsl(192, 100%, 67%) , hsl(280, 87%, 65%));
+    border: none;
+    color: white;
+    align-self: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container__itens__listados {
+    background-color: hsl(237, 14%, 26%);
+    height: auto;
+    width: 80vw;
+}
+
+.itens__listados {
+    padding: 20px;
+}
+
+.itens {
+    display: flex;
+    gap: 30px;
+    color: hsl(0, 0%, 98%);
+    border-bottom: 1px solid white;
+    padding: 10px;  
+    font-weight: 700;
+    font-size: 20px;    
+    justify-content: space-between;
+}
+
+.apagar {
+    border: 1px solid white;
+    color: white;
+}
+
+.botao {
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.botao:active {
+    background: url(../images/bg-desktop-dark.png), linear-gradient(to left, hsl(192, 100%, 67%) , hsl(280, 87%, 65%));
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,17 @@
+.container__imagem {
+    display: flex;
+    background-image: url(../images/bg-mobile-dark.jpg);
+    background-repeat: no-repeat;
+    height: 290px;
+    width: 100vw;
+    background-size: cover;
+    justify-content: center;
+}
+
+.titulo {
+    margin: 90px 0 0 0 ;
+    color: white;
+    font-family: var(--font-principal);
+    font-weight: 700;
+    font-size: 40px;
+}
